@@ -1,0 +1,22 @@
+
+[build]
+  command = "npm run build"
+  publish = ".next"
+  environment = { NODE_VERSION = "20", NEXT_PUBLIC_NODE_ENV = "production" }
+
+[dev]
+  command = "npm run dev"
+
+[[redirects]]
+  from = "/api/*"
+  to = "/.netlify/functions/api/:splat"
+  status = 200
+
+# Ensure Next.js SSR works on Netlify
+[[redirects]]
+  from = "/_next/static/*"
+  to = "/_next/static/:splat"
+  status = 200
+
+[context.production.environment]
+  NEXT_PUBLIC_NODE_ENV = "production"

@@ -1,0 +1,29 @@
+------TODO---------
+Step 2 Upload Video UI Changes:
+
+1. Remove the 
+'Video Questions
+Please answer each question by recording a video or uploading a pre-recorded video file.'
+Also remove the text 'Progress: 0 of 1 completed'
+
+Also remove the left hand sides the stack of Questions: Question 1
+
+----
+
+PROMPT:
+
+
+Create a Directory called Understanding-Docs and we will create MD files in this as follows based on the conversation and project we have build:
+1. Generate a techical code spec for this project, Be as technical as possible. Cover all aspects of project structure, files etc. What all technology, langaugaes, tools are used. This will be used to understand the project code architecture for engineer. File Name: Tech-Spec.md
+
+2. Generate a technical flow document eplaining the functionality technically. This will be used by product owners and architectures. Explain project idea also. File Name: Tech-Flow.md
+
+
+3. Generate a Design Language Doc. Explain the desgin technically. The style we have been using, the layout, custom design colors, componenets, color pallate etc. This will be used to extend this app or create other apps like this to match it visually.
+File Name: Design-Doc.md
+
+4. Local setup instructions (inclding setup of pocketbase)
+Also include a brief on how to deploy on prod. Where to change the default harcoded question. File Name: App-ReadME.md
+
+
+Generate this doc in order to so that I can replicate this project as is in future. Be specific as possible.

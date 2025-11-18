@@ -323,8 +323,8 @@ export function VideoQuestionsStep({
       return;
     }
 
-    if (!validateFileSize(file, 5)) {
-      toast.error('File size must be less than 5MB');
+    if (!validateFileSize(file, 4.5)) {
+      toast.error('File size must be less than 4.5MB');
       return;
     }
 
@@ -563,7 +563,7 @@ export function VideoQuestionsStep({
                             </p>
                           </div>
                           <p className={`text-sm ${highlightUpload ? 'text-red-600' : 'text-gray-500'}`}>
-                            MP4 file only (max 5MB)
+                            MP4 file only (max 4.5MB)
                           </p>
                           <Input
                             id={`video-${activeQuestion.id}`}

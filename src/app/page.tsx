@@ -30,7 +30,7 @@ export default function Home() {
             </p>
           </div>
           <div className="absolute bottom-2 right-4 text-[10px] text-gray-400">
-            1.8.11
+            1.8.13
           </div>
         </div>
       </footer>

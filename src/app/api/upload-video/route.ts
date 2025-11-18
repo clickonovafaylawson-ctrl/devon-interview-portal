@@ -1,11 +1,11 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { authenticateAdmin } from '@/lib/pocketbase';
 
-// Configure body size limit for video uploads (30MB)
+// Configure body size limit for video uploads (5MB)
 export const config = {
   api: {
     bodyParser: {
-      sizeLimit: '35mb',
+      sizeLimit: '10mb',
     },
   },
 };

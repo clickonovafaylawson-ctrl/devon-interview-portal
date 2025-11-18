@@ -10,11 +10,11 @@
     },
     "src/app/api/upload-video/route.ts": {
       "maxDuration": 60,
-      "memory": 3008
+      "memory": 1024
     },
     "src/app/api/convert-video/route.ts": {
       "maxDuration": 60,
-      "memory": 3008
+      "memory": 1024
     }
   },
   "redirects": [

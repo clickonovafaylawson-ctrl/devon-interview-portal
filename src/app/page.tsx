@@ -20,7 +20,7 @@ export default function Home() {
       
       {/* Footer */}
       <footer className="fixed bottom-0 left-0 right-0 bg-gray-100 border-t border-gray-200 z-10">
-        <div className="container mx-auto px-4 py-2">
+        <div className="container mx-auto px-4 py-2 relative">
           <div className="text-center">
             <p className="text-xs text-gray-600">
               In case of any problem, simply refresh the page & start over | Help - 
@@ -28,6 +28,9 @@ export default function Home() {
                 RecruitmentTechpirates@devon.nl
               </a>
             </p>
+          </div>
+          <div className="absolute bottom-2 right-4 text-[10px] text-gray-400">
+            1.8.11
           </div>
         </div>
       </footer>
